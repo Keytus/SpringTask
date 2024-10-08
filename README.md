@@ -5,7 +5,7 @@
 Взаимодействие с API будет осуществляться с помощью HTTP-запросов.
 
 # Использованные технологии
-- Java 21
+- Java 17
 - Spring Boot 3
 - Maven
 - Spring JPA
@@ -16,8 +16,9 @@
 - Docker-compose
 
 # Запуск
-Запуск бд:
+Запуск бд(порт 9090):
 - docker-compose up --build
+
 Запуск сервера(порт 8080):
 - mvn spring-boot:run
 
